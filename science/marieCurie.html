@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../styles.css"> <!-- Load in css styling - styles.css -->
+
+        <!-- Responsive Navigation, from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- load in hamburger icon -->
+        <div class="topnav" id="myTopnav">
+            <a href="../index.html" class="active">Home</a>
+            <a href="../sciencePage.html">Science</a>
+            <a href="../techPage.html">Tech</a>
+            <a href="../engineerPage.html">Engineering</a>
+            <a href="../mathPage.html">Math</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <!-- Javascript code between the script tags -->
+          <script>
+              /* myFunction() toggles between adding and removing the "responsive" class to topnav when the user 
+              clicks on the icon. It is called when the icon is clicked (onclick="myFunction()"), 
+              as can be seen on the javscript line beneath the nav */
+              function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } 
+                else {
+                    x.className = "topnav";
+                }
+            }
+          </script>
+    </head>
+    <body>
+        <div class="WomanInStem">
+            <h1>Marie Curie</h1>
+            <h2 id="field">Physics, Chemistry</h2>
+            <div id="notableAchiev">
+                <h3>Notable Achievements</h3>
+                <ul>
+                    <li> She is the only person to have won a nobel prize in two different areas (Physics and Chemistry)</li>
+                </ul>
+            </div>
+            <div id="biography">
+                <p>
+                    <!-- Where was she born? Where did she study, if she did? -->
+                    Marie Curie (nee Sklodowska) was born in Warsaw, Germany on November 7, 1867. She studied at the Sorbonne in Paris, France 
+                    and received a 'licenciateships' in Physics and the Mathematical Sciences. 
+                    <!-- Anything notable from her time at univeristy/college? -->
+                    During her time at univeristy she met Pierre Curie whom she married. 
+                    Together they became a powerful duo in the fields of Physics and Chemistry. 
+                    She then achieved a higher position in the university than her husband and worked as the Head of the Physics Laboratory at the Sorbonne. 
+                    She achieved her Doctor of Science degree in 1903.
+                    <!-- What did she achieve? -->
+                    
+                    <!-- When did she pass away -->
+                </p>
+            </div>
+            <div id="references">
+                <!-- If you used any references, site them here, e.g: -->
+                <!-- (1) www.website.com -->
+            </div>
+        </div>
+    </body>
+    <footer>
+
+    </footer>
+</html>
