@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css"> <!-- Load in css styling - styles.css -->
+
+        <!-- Responsive Navigation, from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- load in hamburger icon -->
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#contact">Science</a>
+            <a href="#about">Tech</a>
+            <a href="#contact">Engineering</a>
+            <a href="#about">Math</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <!-- Javascript code between the script tags -->
+          <script>
+              /* myFunction() toggles between adding and removing the "responsive" class to topnav when the user 
+              clicks on the icon. It is called when the icon is clicked (onclick="myFunction()"), 
+              as can be seen on the javscript line beneath the nav */
+              function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } 
+                else {
+                    x.className = "topnav";
+                }
+            }
+          </script>
+    </head>
+    <body>
+        <h1>Women in STEM</h1>
+        <h3>
+            Women didn't just appear in STEM fields (Science, Technology, Engineering, Math) once the laws changed
+            'allowing' women to finally persue degrees. We've been here all along.
+        </h3>
+        <p>Discover women in stem</p>
+    </body>
+    <footer>
+
+    </footer>
+</html>
