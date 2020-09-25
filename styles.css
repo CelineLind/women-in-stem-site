@@ -1,11 +1,32 @@
 /* All pages */
 
 /* Homepage - index.html */
+.homePage h1{
+    color: #E84855;
+    font-size: 50px;
+}
+
+.homePage h3{
+    color: #242038;
+    font-size: 22px;
+}
+
+.homePage #discover{
+    color: #f2f2f2;
+    background-color: #EC7178;
+    width: 220px;
+    height: 45px;
+    border-radius: 25px;
+    border: 2px solid #E84755;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+}
 
 /* Navigation */
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color: #9067C6;
     overflow: hidden;
   }
   
@@ -13,7 +34,7 @@
   .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #242038;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -22,14 +43,14 @@
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #CAC1D6;
+    color: #242038;
   }
   
   /* Add an active class to highlight the current page */
   .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #9D96CB;
+    color: #242038;
   }
   
   /* Hide the link that should open and close the topnav on small screens */
