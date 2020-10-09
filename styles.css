@@ -99,9 +99,18 @@
     display: none;
   }
 
-/* Selection pages - ??? */
 
-/* All informative pages - e.g. ??? */
+
+/* All informative pages - e.g. Marie Curie */
+#WomanName{
+  font-size: 30px;
+  text-align: center;
+}
+
+#field{
+  font-size: 25px;
+  text-align: center;
+}
 
 /*** Mobile responsiveness ***/
 
