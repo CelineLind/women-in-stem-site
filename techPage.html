@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css"> <!-- Load in css styling - styles.css -->
+
+        <h1 id="womenTitle">Women in STEM</h1>
+        <!-- Responsive Navigation, from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- load in hamburger icon -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="sciencePage.html">Science</a>
+            <a href="techPage.html" class="active">Tech</a>
+            <a href="engineerPage.html">Engineering</a>
+            <a href="mathPage.html">Math</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <!-- Javascript code between the script tags -->
+          <script>
+              /* myFunction() toggles between adding and removing the "responsive" class to topnav when the user 
+              clicks on the icon. It is called when the icon is clicked (onclick="myFunction()"), 
+              as can be seen on the javscript line beneath the nav */
+              function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } 
+                else {
+                    x.className = "topnav";
+                }
+            }
+          </script>
+    </head>
+    <body>
+        <div class="pageContent">
+            <div class="pageInfo">
+                <h1 id="pageHeading">Women in Technology</h1>
+                <h3>
+                    Women have been heavily involved in technology fields since before computers as we know them existed.
+                </h3>
+            </div>
+            <div class="pageList">
+                <!-- Add your female scientist to the alphabetical, sciences grouped lists here -->
+                <!-- Add her name between <p><a href=""></a></p> brackets and in the "" link to her page-->
+                <h3>Technology</h3>
+                <p></p>
+            </div>
+        </div>
+    </body>
+    <footer>
+
+    </footer>
+</html>
