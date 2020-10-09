@@ -1,4 +1,26 @@
 /* All pages */
+.pageContent{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.pageList h3{
+  color: #E84855;
+  font-size: 25px;
+}
+
+.pageList p{
+  font-size: 16px;
+}
+
+.pageList a{
+  text-decoration: none;
+  color: #242038;
+}
+
+.pageList a:hover{
+  color: #9067C6;
+}
 
 /* Homepage - index.html */
 
