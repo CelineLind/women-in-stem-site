@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../styles.css"> <!-- Load in css styling - styles.css -->
+
+        <h1 id="womenTitle">Women in STEM</h1>
+        <!-- Responsive Navigation, from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- load in hamburger icon -->
+        <div class="topnav" id="myTopnav">
+            <a href="../index.html">Home</a>
+            <a href="../sciencePage.html">Science</a>
+            <a href="../techPage.html">Tech</a>
+            <a href="../engineerPage.html" class="active">Engineering</a>
+            <a href="../mathPage.html">Math</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <!-- Javascript code between the script tags -->
+          <script>
+              /* myFunction() toggles between adding and removing the "responsive" class to topnav when the user 
+              clicks on the icon. It is called when the icon is clicked (onclick="myFunction()"), 
+              as can be seen on the javscript line beneath the nav */
+              function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } 
+                else {
+                    x.className = "topnav";
+                }
+            }
+          </script>
+    </head>
+    <body>
+        <div class="pageContent">
+            <div class="pageInfo">
+                <h1 id="WomanName">Hertha Ayrton</h1>
+                <h2 id="field">Engineering</h2>
+                <div id="notableAchiev">
+                    <h3>Notable Achievements</h3>
+                    <ul>
+                        <li>First female member of the Institute of Electrical Engineers</li>
+			<li> First woman to present at the Royal Society, nominated to become a fellow </li>
+			<li>Invented cleaner and quieter lighting by changing shape of carbon electrode</li>
+			<li> Won Hughes Medal for her work in electricity </li>
+                    </ul>
+                </div>
+                <div id="biography">
+                    <p>
+                        <!-- Where was she born? Where did she study, if she did? -->
+                        Phoebe Sarah Marks was born in England in 1854. She earned the nickname "Hertha", the name of a German earth goddess, from her energetic nature. Initially working as a governess at 16, she met a suffragist who paid for her education at technical school. Marks completed her studies at Cambridge in 1881, but they did not give degrees to women at the time. 
+                       </p>
+			 <!-- Anything notable from her time at univeristy/college? -->
+                        <p>
+			Interestingly, at Cambridge she became friends with the author George Eliot, who based the character Mirah Cohen in the novel Daniel Deronda after Marks. After Cambridge, she began her specialization in electricity at Finsberg Technical College, where she met her husband William Ayrton.
+                        </p>
+			<!-- What did she achieve? -->
+			<p>
+			Hertha created her first invention in 1884. It was a line divider that was used by engineers, architects,and artists to change the size of their drawings while keeping the proportions consistent. But Hertha Ayrton's most famous accomplishment began in 1893, when she improved the electric arc used to light arc lamps, the prevalent lighting source of the time. Electric arcs created an awful flicker and hissing before delivering consistent light, breaking the atmosphere in theatres and streetlights. Ayrton discovered the cause of the hissing, and proposed changes to the carbon electrodes that greatly reduced the hissing. 
+			</p>
+			<p>
+			Hertha consistently broke barriers, as the first woman to present a paper and join the Institution of Electrical Engineers, the first woman to be present a paper and be nominated to join the Royal Society,and an activist in the suffragist movement. The Royal Society did not permit her to join because their charter did not permit them to admit married women, but they presented her with the Hughes Medal for distinguished work in the physical sciences in 1906. 
+                        </p>
+			<p>
+			Over the course of her life, she was awarded 26 patents. During the demonstrations of her work, she amazed people who did not expect to see a woman weilding "dangrous-looking" equipment.
+                        </p>
+			<p>
+			<!-- When did she pass away -->
+			Hertha Ayrton died in 1923 in Sussex.
+                    </p>
+                </div>
+                <div id="references">
+                    <!-- If you used any references, site them here, e.g: -->
+                    
+				(1) https://www.britannica.com/biography/Hertha-Marks-Ayrton
+		    
+				(2) Women in Science: 50 Fearless Pioneers Who Changed the World by Rachel Ignotofsky
+                
+		</div>
+            </div>
+        </div>
+    </body>
+    <footer>
+
+    </footer>
+</html>
