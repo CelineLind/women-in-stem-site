@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../styles.css"> <!-- Load in css styling - styles.css -->
+
+        <h1 id="womenTitle">Women in STEM</h1>
+        <!-- Responsive Navigation, from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- load in hamburger icon -->
+        <div class="topnav" id="myTopnav">
+            <a href="../index.html">Home</a>
+            <a href="../sciencePage.html">Science</a>
+            <a href="../techPage.html">Tech</a>
+            <a href="../engineerPage.html">Engineering</a>
+            <a href="../mathPage.html" class="active">Math</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+          <!-- Javascript code between the script tags -->
+          <script>
+              /* myFunction() toggles between adding and removing the "responsive" class to topnav when the user 
+              clicks on the icon. It is called when the icon is clicked (onclick="myFunction()"), 
+              as can be seen on the javscript line beneath the nav */
+              function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } 
+                else {
+                    x.className = "topnav";
+                }
+            }
+          </script>
+    </head>
+    <body>
+        <div class="pageContent">
+            <div class="pageInfo">
+                <h1 id="WomanName">Emmy Noether</h1>
+                <h2 id="field">Mathematics</h2>
+                <div id="notableAchiev">
+                    <h3>Notable Achievements</h3>
+                    <ul>
+                        <li>Made formative contributions to the field of abstract algebra</li>
+			<li>Developed the Noether Theory which connects mathematical symmetry to the conservation of energy</li>
+			<li>Received Ackermann-Teubner Memorial Award for contributions to mathematics</li>
+                    </ul>
+                </div>
+                <div id="biography">
+                    <p>
+                        <!-- Where was she born? Where did she study, if she did? -->
+                        Amalie Emmy Noether was born in Germany in 1882. She audited classes in mathematics at the University of Erlangen because women were not allowed to be full students there. Once they allowed women to study there officially, she received her PhD and worked upaid on her mathematical research and as a teaching assistant and lecturer to her father.
+                        </p>
+			<!-- Anything notable from her time at univeristy/college? -->
+                        <p>
+			In 1915, she was invited to work with mathematicians David Hilbert and Felix Klein on the math behind Einstein's theory of relativity. She also began teaching at the University of Göttingen, where this research was being done. Here, Noether discovered that if that Lagrangian of a system does not change when the coordinate system changes, then there is some quantity conserved. For example, if the Lagrangian does not change when time is changed, then energy must be conserved. This has become known as Noether's theorum and is an important result in theoretical physics.
+			</p>
+                        <!-- What did she achieve? -->
+                        <p>
+			In addition to the Noether theorum, Emmy Noether made significant contributions in the fields of noncommutative algebras, as well as theories of rings and fields. She is also credited as a contributor in several lines of research by other mathematicians, including fields like algebraic topology.
+			</p>
+                        <!-- When did she pass away -->
+			<p>
+			Emmy Noether left Germany in 1933 to escape the Nazis, and went to the United States to teach at Bryn Mawr College and conduct research in New Jersey. However, she died of cancer in 1935. After her death, she was described as "the most significant mathemetical genius thus far produced since the higher education of women began."
+                    </p>
+                </div>
+                <div id="references">
+                    <!-- If you used any references, site them here, e.g: -->
+                    <!-- (1) www.website.com -->
+			(1)https://www.britannica.com/biography/Emmy-Noether
+			(2)Women in Science: 50 Fearless Pioneers Who Changed the World by Rachel Ignotofsky
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+
+    </footer>
+</html>
